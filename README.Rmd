@@ -54,7 +54,7 @@ tones12 <- tibble(degree=1:13,
 )
 ```
 
-### Show: Circle of 5ths' scales
+### Scales w/ the circle of 5ths (signatures have sharps)
 
 ```{r,echo=F}
 tones12 %>%
@@ -67,7 +67,7 @@ tones12 %>%
   knitr::kable()
 ```
 
-### Show: circle of 4ths' scales
+### Scales w/ the circle of 4ths (signatures have flats)
 
 ```{r,echo=F}
 tones12 %>%

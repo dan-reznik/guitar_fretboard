@@ -42,7 +42,7 @@ tones12 <- tibble(degree=1:13,
 )
 ```
 
-### Show: Circle of 5ths' scales
+### Scales w/ the circle of 5ths (signatures have sharps)
 
 |  degree| root | major\_scale            | major\_sharps       | minor\_scale            | minor\_sharps       |
 |-------:|:-----|:------------------------|:--------------------|:------------------------|:--------------------|
@@ -60,7 +60,7 @@ tones12 <- tibble(degree=1:13,
 |      12| F    | F,G,A,A\#,C,D,E         | A\#                 | F,G,G\#,A\#,C,C\#,D\#   | G\#,A\#,C\#,D\#     |
 |      13| C    | C,D,E,F,G,A,B           |                     | C,D,D\#,F,G,G\#,A\#     | D\#,G\#,A\#         |
 
-### Show: circle of 4ths' scales
+### Scales w/ the circle of 4ths (signatures have flats)
 
 |  degree| root | major\_scale       | major\_flats   | minor\_scale       | minor\_flats   |
 |-------:|:-----|:-------------------|:---------------|:-------------------|:---------------|
