@@ -9,7 +9,6 @@ My attempt at:
 
 ``` r
 library(tidyverse)
-library(purrr)
 source("scale_util.R")
 ```
 
