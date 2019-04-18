@@ -3,12 +3,19 @@ title: "Guitar Fretboard"
 output: github_document
 ---
 
+My attempt at:
+
+* Calculating frequencies of musical scales
+* Calculating circle of 5ths' and 4ths' major and minor scales
+* Drawing guitar fretboard, show natural notes on it
+
 ```{r,echo=F}
 knitr::opts_chunk$set(
   cache=T,
   collapse=T,
   comment="#>",
-  dpi=96
+  dpi=200,
+  out.width="100%"
 )
 ```
 

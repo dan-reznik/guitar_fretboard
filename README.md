@@ -1,6 +1,12 @@
 Guitar Fretboard
 ================
 
+My attempt at:
+
+-   Calculating frequencies of musical scales
+-   Calculating circle of 5ths' and 4ths' major and minor scales
+-   Drawing guitar fretboard, show natural notes on it
+
 ``` r
 library(tidyverse)
 library(purrr)
@@ -141,7 +147,7 @@ draw_fretboard <- function(tones12,fw2=.1) {
 draw_fretboard(tones12_5ths_and_4ths)
 ```
 
-![](README_files/figure-markdown_github/unnamed-chunk-6-1.png)
+<img src="README_files/figure-markdown_github/unnamed-chunk-6-1.png" width="100%" />
 
 ### Draw fretboard w/ naturals
 
@@ -198,4 +204,4 @@ draw_naturals(tones12)
 #> This warning is displayed once per session.
 ```
 
-![](README_files/figure-markdown_github/unnamed-chunk-8-1.png)
+<img src="README_files/figure-markdown_github/unnamed-chunk-8-1.png" width="100%" />
