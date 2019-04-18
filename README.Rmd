@@ -147,7 +147,7 @@ draw_naturals <- function(tones12,fw2=.1) {
                      y=stringYs[s],
                      nfn=nfn)
     p+
-      geom_point(aes(x=x,y=y),size=6,color="black",data=df) +
+      geom_point(aes(x=x,y=y),size=5,color="black",data=df) +
       geom_text(aes(x=x,y=y,label=nfn),color="white",
                 size=3,data=df)
   }
@@ -158,9 +158,9 @@ draw_naturals <- function(tones12,fw2=.1) {
   # draw entire fretboard.
   # loop doesn't work because drawNotes requires previous plot
   reduce(1:6,~drawNotes(.x,.y),.init=fretboard) +
-    geom_point(aes(x=x,y=y),size=4,color="grey",data=df0) +
+    geom_point(aes(x=x,y=y),size=5,color="grey",data=df0) +
     geom_text(aes(x=x,y=y,label=nfn),color="black",
-              size=1,data=df0) +
+              size=3,data=df0) +
     theme(axis.text=element_blank(),
           axis.ticks = element_blank(),
           panel.background = element_blank(),
