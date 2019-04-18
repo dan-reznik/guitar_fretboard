@@ -141,7 +141,8 @@ draw_fretboard <- function(tones12,fw2=.1) {
           axis.ticks = element_blank(),
           panel.background = element_blank(),
           plot.margin=unit(c(0,0,0,0), "cm"),
-          panel.spacing=unit(c(0,0,0,0), "cm"))
+          panel.spacing=unit(c(0,0,0,0), "cm"),
+          panel.border = element_blank())
 }
 
 draw_fretboard(tones12_5ths_and_4ths)
@@ -194,7 +195,8 @@ draw_naturals <- function(tones12,fw2=.1) {
           axis.ticks = element_blank(),
           panel.background = element_blank(),
           plot.margin=unit(c(0,0,0,0), "cm"),
-          panel.spacing=unit(c(0,0,0,0), "cm"))
+          panel.spacing=unit(c(0,0,0,0), "cm"),
+          panel.border = element_blank())
 }
 ```
 
